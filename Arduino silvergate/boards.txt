@@ -1,0 +1,104 @@
+
+
+## Silvergate 
+## -------------------------
+
+
+silvergate.name=Silvergate 2561
+
+silvergate.upload.tool=avrdude
+silvergate.upload.maximum_data_size=8192
+
+silvergate.bootloader.tool=avrdude
+silvergate.bootloader.low_fuses=0xFF
+silvergate.bootloader.unlock_bits=0x3F
+silvergate.bootloader.lock_bits=0x0F
+
+silvergate.build.f_cpu=16000000L
+silvergate.build.core=silvergate
+silvergate.build.variant=silvergate
+silvergate.build.board=AVR_MEGA2561
+
+## silvergate ATmega2561
+## -------------------------
+silvergate.menu.cpu.atmega2561=ATmega2561 
+
+silvergate.menu.cpu.atmega2561.upload.protocol=wiring
+silvergate.menu.cpu.atmega2561.upload.maximum_size=253952
+silvergate.menu.cpu.atmega2561.upload.speed=115200
+
+silvergate.menu.cpu.atmega2561.bootloader.high_fuses=0xD8
+silvergate.menu.cpu.atmega2561.bootloader.extended_fuses=0xFD
+silvergate.menu.cpu.atmega2561.bootloader.file=silvergate/ATmegaBOOT_168_atmega2561.hex
+
+silvergate.menu.cpu.atmega2561.build.mcu=atmega2561
+silvergate.menu.cpu.atmega2561.build.board=AVR_MEGA2561
+
+## silvergate ATmega1281
+## -------------------------
+silvergate.menu.cpu.atmega1281=ATmega1281
+
+silvergate.menu.cpu.atmega1281.upload.protocol=arduino
+silvergate.menu.cpu.atmega1281.upload.maximum_size=126976
+silvergate.menu.cpu.atmega1281.upload.speed=115200
+
+silvergate.menu.cpu.atmega1281.bootloader.high_fuses=0xDA
+silvergate.menu.cpu.atmega1281.bootloader.extended_fuses=0xF5
+silvergate.menu.cpu.atmega1281.bootloader.file=Silvergate/ATmegaBOOT_168_atmega1281.hex
+
+silvergate.menu.cpu.atmega1281.build.mcu=atmega1281
+silvergate.menu.cpu.atmega1281.build.board=AVR_MEGA2561
+
+##############################################################
+
+
+
+
+##############################################################
+
+sanguino.name=Sanguino
+
+
+sanguino.upload.tool=avrdude
+sanguino.upload.maximum_data_size=8192
+
+sanguino.bootloader.tool=avrdude
+sanguino.bootloader.low_fuses=0xFF
+sanguino.bootloader.unlock_bits=0x3F
+sanguino.bootloader.lock_bits=0x0F
+
+sanguino.build.f_cpu=16000000L
+sanguino.build.core=arduino
+sanguino.build.variant=sanguino
+sanguino.build.board=sanguino
+
+## Sanguino ATmega1284
+## -------------------------
+sanguino.menu.cpu.atmega1284=ATmega1284 
+
+sanguino.menu.cpu.atmega1284.upload.protocol=wiring
+sanguino.menu.cpu.atmega1284.upload.maximum_size=126976
+sanguino.menu.cpu.atmega1284.upload.speed=115200
+
+sanguino.menu.cpu.atmega1284.bootloader.high_fuses=0xD8
+sanguino.menu.cpu.atmega1284.bootloader.extended_fuses=0xFD
+sanguino.menu.cpu.atmega1284.bootloader.file=sanguino/ATmegaBOOT_168_atmega1284.hex
+
+sanguino.menu.cpu.atmega1284.build.mcu=atmega1284
+sanguino.menu.cpu.atmega1284.build.board=AVR_SANGUINO
+
+## Sanguino ATmega644
+## -------------------------
+sanguino.menu.cpu.atmega644=ATmega644
+
+sanguino.menu.cpu.atmega644.upload.protocol=arduino
+sanguino.menu.cpu.atmega644.upload.maximum_size=61440
+sanguino.menu.cpu.atmega644.upload.speed=115200
+
+sanguino.menu.cpu.atmega644.bootloader.high_fuses=0xDA
+sanguino.menu.cpu.atmega644.bootloader.extended_fuses=0xF5
+sanguino.menu.cpu.atmega644.bootloader.file=Sanguino/ATmegaBOOT_168_atmega644.hex
+
+sanguino.menu.cpu.atmega644.build.mcu=atmega644
+sanguino.menu.cpu.atmega644.build.board=AVR_SANGUINO
+
